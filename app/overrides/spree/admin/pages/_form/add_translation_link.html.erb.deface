@@ -1,0 +1,6 @@
+<!-- insert_after 'ul' -->
+<% if @page.id %>
+  <%= link_to Spree.t("i18n.translations"), admin_translations_path('pages', @page.id),
+          class: 'button icon_link with-tip icon-flag',
+          style: 'padding-top: 8px; margin-top: 8px; display: inline-block;' %>
+<% end %>
