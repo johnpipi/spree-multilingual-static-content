@@ -1,7 +1,9 @@
 SpreeMultilingualStaticContent
 ==============================
+[Spree Static Content](http://google.com), is a Good, clean content management of pages for Spree, but it is not possible 
+to have the pages in different languages, like other spree features.
 
-Introduction goes here.
+using this extension you will have your pages in multiple languages also. it uses the standard spree_i18n methods.
 
 Installation
 ------------
@@ -9,8 +11,10 @@ Installation
 Add spree_multilingual_static_content to your Gemfile:
 
 ```ruby
-gem 'spree_multilingual_static_content'
+gem 'spree_multilingual_static_content', '2.0.1'
 ```
+
+
 
 Bundle your dependencies and run the installation generator:
 
@@ -37,4 +41,4 @@ Simply add this require statement to your spec_helper:
 require 'spree_multilingual_static_content/factories'
 ```
 
-Copyright (c) 2013 [name of extension creator], released under the New BSD License
+Copyright (c) 2013 [Azin Azadi], released under the New BSD License
