@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_multilingual_static_content'
-  s.version     = '2.0.stable'
+  s.version     = '2.0.1'
   s.summary     = 'Makes the spree-static-content gem multilingual'
   s.description = 'it uses the standard method like spree_i18n'
   s.required_ruby_version = '>= 1.9.3'
