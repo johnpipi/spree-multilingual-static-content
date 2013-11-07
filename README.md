@@ -11,7 +11,7 @@ Installation
 Add spree_multilingual_static_content to your Gemfile:
 
 ```ruby
-gem 'spree_multilingual_static_content', '2.0.1'
+gem 'spree_multilingual_static_content', :github => "azinazadi/spree-multilingual-static-content"
 ```
 
 
@@ -23,6 +23,7 @@ bundle
 bundle exec rails g spree_multilingual_static_content:install
 ```
 
+it is compatible with spree 2.1, and will work also with older versions...
 Testing
 -------
 
