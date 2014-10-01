@@ -8,10 +8,14 @@ using this extension you will have your pages in multiple languages also. it use
 Installation
 ------------
 
-Add spree_multilingual_static_content to your Gemfile:
+Add spree_multilingual_static_content to your Gemfile. You need to have spree_static_content also. spree_static_content extension is an addition to spree_static_content and make that multilingual.
+
 
 ```ruby
+
+gem 'spree_static_content', github: 'spree/spree_static_content', branch: 'master'
 gem 'spree_multilingual_static_content', :github => "azinazadi/spree-multilingual-static-content"
+
 ```
 
 
